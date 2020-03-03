@@ -1,31 +1,23 @@
 #!/bin/bash
-cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/automationLSV/testOne
-echo "proba"
-changes=$(git diff  --quiet)
-changes=$?
-echo $changes
-git add .
 
-git commit -m "date $(date + '%Y-%m-%d') update "
-#git log @{u}.. --quiet
-#changes=$?
-#echo "*****"
-#echo $changes
-#SHAholder=$(git cherry -v)
-#git push
-#
-#if [ -z "$SHAholder" ]
+git add .
+git commit -m "ls $(date + '%Y-%m-%d') update "
+SHAholder=$(git cherry -v)
+git push
+echo $SHAholder
+git rev-parse HEAD
+
+
+#if[ -z "$SHAholder" ];
 #then
-#  echo 'GERRIT_LINK_TEXT'='' >> tst2.properties
-#  echo 'GERRIT_URL'='Everything up to date!' >> tst2.properties
+#  echo "empty"
 #else
-#  command=$(git log --name-status HEAD^..HEAD | grep Reviewed | awk '{print $2}')
-#  echo 'GERRIT_LINK_TEXT'='Gerrit url:' >> tst2.properties
-#  echo 'GERRIT_URL'=$command >> tst2.properties
+#  command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
+#  echo $command="test"  >> tst.properties
 #fi
+
+#key='key_value'
+#value=12345
 #
-#
-sad
-"testing test"
-"another test"
-"another test"
+#echo 'GERRIT_LINK_TEXT'='Gerrit url:' >> tst.properties
+#echo 'GERRIT_URL'=$value >> tst.properties
