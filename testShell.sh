@@ -5,13 +5,13 @@ git commit -m "ls $(date + '%Y-%m-%d') update "
 SHAholder=$(git cherry -v)
 git push
 echo $SHAholder
-if[ -z "$SHAholder" ]
-then
-  echo "empty"
-else
-  command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
-  echo $command="test"  >> tst.properties
-fi
+#if[ -z "$SHAholder" ];
+#then
+#  echo "empty"
+#else
+#  command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
+#  echo $command="test"  >> tst.properties
+#fi
 
 #key='key_value'
 #value=12345
