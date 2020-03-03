@@ -6,7 +6,7 @@ SHAholder=$(git cherry -v)
 git push
 echo $SHAholder
 
- 
+
 
 
 #if[ -z "$SHAholder" ];
