@@ -6,7 +6,7 @@ SHAholder=$(git cherry -v)
 #git push
 #echo $SHAholder
 
-git cat-file -e $sha^{commit}
+git rev-list HEAD..$sha
 
 
 #if[ -z "$SHAholder" ];
