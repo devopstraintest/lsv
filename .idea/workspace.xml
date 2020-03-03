@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9618fa9-e804-4462-9c3a-57ee71f700f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testShell.sh" beforeDir="false" afterPath="$PROJECT_DIR$/testShell.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tst2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tst2.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
