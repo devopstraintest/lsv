@@ -1,9 +1,9 @@
 #!/bin/bash
 
+
+git add .
 git diff --quiet
 changes=$?
-git add .
-
 
 echo $changes
 git commit -m "ls $(date + '%Y-%m-%d') update "
