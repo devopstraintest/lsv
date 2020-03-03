@@ -11,7 +11,7 @@ then
   echo 'GERRIT_URL'='Everything up to date!'
 else
   command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
-  echo 'GERRIT_LINK_TEXT'='Gerrit url:' >> tst.properties
-  echo 'GERRIT_URL'=$command >> tst.properties
+  echo 'GERRIT_LINK_TEXT'='Gerrit url:' >> tst1.properties
+  echo 'GERRIT_URL'=$command >> tst1.properties
 fi
 
