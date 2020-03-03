@@ -1,16 +1,15 @@
 #!/bin/bash
 
-#BASEDIR=$(dirname "$0")
+git add .
+git commit -m "ls $(date + '%Y-%m-%d') update "
+git push
+command=$(git log --name-status HEAD^..HEAD)
 
-#VSN=$($BASEDIR/testShellOne.sh 20)
-#echo "$VSN"
+git log --grep=$command
 
-#a = ['system-platform','ea-applications','sqm-applications','sqm-engine','eea-common','os-tlp','eea-admin-node-components-tlp','system-platform-tlp','ea-applications-tlp','sqm-applications-tlp','sqm-engine-tlp']
+
+#key='key_value'
+#value=12345
 #
-#
-#groovy newScript.groovy a
-key='key_value'
-value=12345
-
-echo 'GERRIT_LINK_TEXT'='Gerrit url:' >> tst.properties
-echo 'GERRIT_URL'=$value >> tst.properties
+#echo 'GERRIT_LINK_TEXT'='Gerrit url:' >> tst.properties
+#echo 'GERRIT_URL'=$value >> tst.properties
