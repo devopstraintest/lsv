@@ -5,6 +5,9 @@ git commit -m "ls $(date + '%Y-%m-%d') update "
 SHAholder=$(git cherry -v)
 git push
 echo $SHAholder
+git rev-parse HEAD
+
+
 #if[ -z "$SHAholder" ];
 #then
 #  echo "empty"
