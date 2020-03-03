@@ -12,7 +12,7 @@ changes=$?
 echo "*****"
 echo $changes
 #SHAholder=$(git cherry -v)
-#git push
+git push
 #
 #if [ -z "$SHAholder" ]
 #then
