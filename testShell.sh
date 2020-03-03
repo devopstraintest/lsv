@@ -6,10 +6,10 @@ changes=$?
 git add .
 echo $changes
 git commit -m "ls $(date + '%Y-%m-%d') update "
-git log @{u}.. --quiet
-changes=$?
-echo "*****"
-echo $changes
+#git log @{u}.. --quiet
+#changes=$?
+#echo "*****"
+#echo $changes
 #SHAholder=$(git cherry -v)
 git push
 #
