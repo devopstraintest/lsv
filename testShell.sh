@@ -7,11 +7,10 @@ git push
 echo $SHAholder
 
 
-
-
-#if[ -z "$SHAholder" ];
+#if [ -z "$SHAholder" ]
 #then
-#  echo "empty"
+#  echo 'GERRIT_LINK_TEXT'=''
+#  echo 'GERRIT_URL'='Everything up to date!'
 #else
 #  command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
 #  echo $command="test"  >> tst.properties
