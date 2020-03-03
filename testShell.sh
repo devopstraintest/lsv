@@ -3,9 +3,10 @@
 git add .
 git commit -m "ls $(date + '%Y-%m-%d') update "
 SHAholder=$(git cherry -v)
-git push
-echo $SHAholder
+#git push
+#echo $SHAholder
 
+git cat-file -e $sha^{commit}
 
 
 #if[ -z "$SHAholder" ];
