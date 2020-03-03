@@ -2,7 +2,7 @@
 
 
 git add .
-git diff --quiet
+git diff diff-index --quiet
 changes=$?
 
 echo $changes
