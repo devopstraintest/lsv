@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git add .
-git commit -m "ls $(date + '%Y-%m-%d') update "
+git commit -m "ls \$(date + '%Y-%m-%d') update "
 git push
 command=$(git log --name-status HEAD^..HEAD)
 
