@@ -7,7 +7,7 @@ command=$(git log --name-status HEAD^..HEAD)
 
 echo $command
 
-git log --grep=$command
+#git log --grep=$command
 
 
 #key='key_value'
