@@ -2,11 +2,16 @@
 
 git add .
 git commit -m "ls $(date + '%Y-%m-%d') update "
-#git push
-command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
+temporarySHAholder=$(git cherry -v)
+git push
 
-echo $command="test"  >> tst.properties
-
+if[-z "$temporarySHAholder"]
+then
+  echo "empty"="test"  >> tst.properties
+else
+  command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
+  echo $command="test"  >> tst.properties
+fi
 
 #key='key_value'
 #value=12345
