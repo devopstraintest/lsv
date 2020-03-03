@@ -4,8 +4,6 @@ git add .
 git commit -m "ls $(date + '%Y-%m-%d') update "
 SHAholder=$(git cherry -v)
 git push
-echo $SHAholder
-
 
 if [ -z "$SHAholder" ]
 then
@@ -13,7 +11,8 @@ then
   echo 'GERRIT_URL'='Everything up to date!'
 else
   command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
-  echo $command="test"  >> tst.properties
+  echo 'GERRIT_LINK_TEXT'='Gerrit url:'
+  echo 'GERRIT_URL'=$command >>tst.properties
 fi
 
 #key='key_value'
