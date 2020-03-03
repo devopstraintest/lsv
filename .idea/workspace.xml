@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9618fa9-e804-4462-9c3a-57ee71f700f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tst.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tst.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tst1.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y7HbwDjbA4sBMxKXt9vSf1I8vh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Shell Script" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/newScript.groovy" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -94,6 +98,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="588" y="154" width="800" height="677" key="#Notifications" timestamp="1583239468807">
+      <screen x="67" y="27" width="1853" height="933" />
+    </state>
+    <state x="588" y="154" width="800" height="677" key="#Notifications/67.27.1853.933/1920.0.1920.960@67.27.1853.933" timestamp="1583239468807" />
     <state x="451" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582799925172">
       <screen x="67" y="27" width="1853" height="933" />
     </state>
@@ -152,6 +160,10 @@
     </state>
     <state width="1807" height="296" key="GridCell.Tab.1.right/67.27.1853.933/1920.0.1920.950@67.27.1853.933" timestamp="1582615907909" />
     <state width="1807" height="296" key="GridCell.Tab.1.right/67.27.1853.933/1920.0.1920.960@67.27.1853.933" timestamp="1582895606250" />
+    <state x="482" y="127" key="SettingsEditor" timestamp="1583239658027">
+      <screen x="67" y="27" width="1853" height="933" />
+    </state>
+    <state x="482" y="127" key="SettingsEditor/67.27.1853.933/1920.0.1920.960@67.27.1853.933" timestamp="1583239658027" />
     <state x="649" y="320" key="com.intellij.ide.util.TipDialog" timestamp="1582672623218">
       <screen x="67" y="27" width="1853" height="933" />
     </state>
