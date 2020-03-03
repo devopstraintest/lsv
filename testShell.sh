@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git add .
-git diff diff-index --quiet
+git   diff-index --quiet
 changes=$?
 echo $changes
 git commit -m "ls $(date + '%Y-%m-%d') update "
