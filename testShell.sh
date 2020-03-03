@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cp tst.properties /testOne
 
 changes=$(git diff --quiet)
 changes=$?
