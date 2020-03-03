@@ -2,10 +2,10 @@
 
 git add .
 git commit -m "ls $(date + '%Y-%m-%d') update "
-temporarySHAholder=$(git cherry -v)
+SHAholder=$(git cherry -v)
 git push
 
-if[-z "$temporarySHAholder"]
+if[ -z "$SHAholder" ]
 then
   echo "empty"="test"  >> tst.properties
 else
