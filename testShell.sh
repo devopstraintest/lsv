@@ -7,7 +7,7 @@ changes=$?
 
 echo $changes
 git commit -m "ls $(date + '%Y-%m-%d') update "
-git log @{u}..
+git log @{u}.. --quiet
 changes=$?
 echo "*****"
 echo $changes
