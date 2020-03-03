@@ -3,10 +3,9 @@
 git add .
 git commit -m "ls $(date + '%Y-%m-%d') update "
 #git push
-command=$(git log --name-status HEAD^..HEAD)
+command=$(git log --name-status HEAD^..HEAD | grep Author)
 
-git log --name-status HEAD^..HEAD
-#git log --grep=$command
+echo $command
 
 
 #key='key_value'
