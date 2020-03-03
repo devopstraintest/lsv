@@ -7,8 +7,9 @@ changes=$?
 
 echo $changes
 git commit -m "ls $(date + '%Y-%m-%d') update "
-git log @{u}.. -p
+git log @{u}..
 changes=$?
+echo "*****"
 echo $changes
 #SHAholder=$(git cherry -v)
 #git push
