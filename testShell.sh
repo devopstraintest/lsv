@@ -15,8 +15,3 @@ else
   echo 'GERRIT_URL'=$command >>tst.properties
 fi
 
-#key='key_value'
-#value=12345
-#
-#echo 'GERRIT_LINK_TEXT'='Gerrit url:' >> tst.properties
-#echo 'GERRIT_URL'=$value >> tst.properties
