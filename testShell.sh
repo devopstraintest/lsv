@@ -3,9 +3,9 @@
 git add .
 git commit -m "ls $(date + '%Y-%m-%d') update "
 #git push
-command=$(git log --name-status HEAD^..HEAD | grep Author)
+command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
 
-echo $command | awk '{print $2}'
+echo $command="test"  >> tst.properties
 
 
 #key='key_value'
