@@ -2,10 +2,10 @@
 
 git add .
 git commit -m "ls $(date + '%Y-%m-%d') update "
-SHAholder=$(git cherry -v)
-git push
+SHAholder=$(git rev-parse HEAD)
+#git push
 echo $SHAholder
-git rev-parse HEAD
+
 
 
 #if[ -z "$SHAholder" ];
