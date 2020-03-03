@@ -7,7 +7,7 @@ git push
 
 if[ -z "$SHAholder" ]
 then
-  echo "empty"="test"  >> tst.properties
+  echo "empty" 
 else
   command=$(git log --name-status HEAD^..HEAD | grep Author | awk '{print $2}')
   echo $command="test"  >> tst.properties
