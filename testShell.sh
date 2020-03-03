@@ -15,3 +15,7 @@ else
   echo 'GERRIT_URL'=$command >> tst2.properties
 fi
 
+git diff --quiet
+changes=$?
+
+echo $changes
