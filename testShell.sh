@@ -5,7 +5,8 @@ changes=$(git diff --quiet)
 changes=$?
 git add .
 echo $changes
-git commit -m "date $(date + '%Y-%m-%d') update "
+test=$(date + "%Y-%m-%d")
+git commit -m "date $test update "
 #git log @{u}.. --quiet
 #changes=$?
 #echo "*****"
