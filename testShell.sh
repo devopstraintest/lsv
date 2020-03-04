@@ -1,11 +1,11 @@
 #!/bin/bash
-cp tst.properties /testOne
+cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/automationLSV/testOne
 
 changes=$(git diff --quiet)
 changes=$?
 git add .
 echo $changes
-git commit -m "ls $(date + '%Y-%m-%d') update "
+git commit -m "date $(date + '%Y-%m-%d') update "
 #git log @{u}.. --quiet
 #changes=$?
 #echo "*****"
