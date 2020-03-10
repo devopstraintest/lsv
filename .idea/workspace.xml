@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9618fa9-e804-4462-9c3a-57ee71f700f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testShell.sh" beforeDir="false" afterPath="$PROJECT_DIR$/testShell.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tst.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tst.properties" afterDir="false" />
-    </list>
+    <list default="true" id="b9618fa9-e804-4462-9c3a-57ee71f700f8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,9 +104,10 @@
     </state>
     <state x="451" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.933/1920.0.1920.950@67.27.1853.933" timestamp="1582418172478" />
     <state x="451" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.933/1920.0.1920.960@67.27.1853.933" timestamp="1582799925172" />
-    <state x="702" y="297" width="572" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583263495441">
-      <screen x="67" y="27" width="1853" height="933" />
+    <state x="702" y="332" width="581" height="441" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583839090031">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
+    <state x="702" y="332" width="581" height="441" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583839090031" />
     <state x="702" y="297" width="572" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.933/1920.0.1920.960@67.27.1853.933" timestamp="1583263495441" />
     <state x="726" y="241" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582895201940">
       <screen x="67" y="27" width="1853" height="933" />
