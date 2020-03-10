@@ -3,7 +3,7 @@ cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/auto
 touch /home/antonio/Desktop/automationLSV/testFile
 changes=$(git diff --quiet)
 changes=$?
-command=$(git status)
+#command=$(git status)
 #echo $command
 git add .
 echo $changes
