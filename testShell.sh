@@ -3,8 +3,8 @@ cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/auto
 touch /home/antonio/Desktop/automationLSV/testFile
 changes=$(git diff --quiet)
 changes=$?
-#command=$(git status)
-#echo $command
+command=$(git status)
+echo $command
 git add .
 echo $changes
 git commit -m "date $(date  '+%Y%m%d') update "
