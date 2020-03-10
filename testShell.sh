@@ -1,7 +1,7 @@
 #!/bin/bash
 cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/automationLSV/testOne
 touch /home/antonio/Desktop/automationLSV/testFile
-changes=$(git diff --quiet)
+git diff --quiet
 changes=$?
 command=$(git status)
 echo $command
