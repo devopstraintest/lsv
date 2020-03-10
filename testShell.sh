@@ -4,7 +4,7 @@ touch /home/antonio/Desktop/automationLSV/testFile
 changes=$(git diff --quiet)
 changes=$?
 command=$(git status)
-echo $command
+#echo $command
 git add .
 echo $changes
 git commit -m "date $(date  '+%Y%m%d') update "
