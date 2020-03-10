@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c5a7c83-b4a9-477e-9f9b-7d2eca996d66" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="242" y="103" width="1482" height="768" key="MergeDialog" timestamp="1583874680091">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state x="242" y="103" width="1482" height="768" key="MergeDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1583874680091" />
+    <state x="698" y="205" width="580" height="564" key="MultipleFileMergeDialog" timestamp="1583874680098">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state x="698" y="205" width="580" height="564" key="MultipleFileMergeDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1583874680098" />
   </component>
 </project>
