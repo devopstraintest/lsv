@@ -1,6 +1,6 @@
 #!/bin/bash
 cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/automationLSV/testOne
-
+touch /home/antonio/Desktop/automationLSV/testFile
 changes=$(git diff --quiet)
 changes=$?
 git add .
