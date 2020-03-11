@@ -1,19 +1,17 @@
 #!/bin/bash
 cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/automationLSV/testOne
-touch /home/antonio/Desktop/automationLSV/testFile
-git diff --quiet
+
+changes=$(git diff --quiet)
 changes=$?
-command=$(git status)
-echo $command
 git add .
 echo $changes
-git commit -m "date $(date  '+%Y%m%d') update "
+git commit -m "date $(date + '%Y-%m-%d') update "
 #git log @{u}.. --quiet
 #changes=$?
 #echo "*****"
 #echo $changes
 #SHAholder=$(git cherry -v)
-#git push
+git push
 #
 #if [ -z "$SHAholder" ]
 #then
@@ -26,6 +24,3 @@ git commit -m "date $(date  '+%Y%m%d') update "
 #fi
 #
 #
-1
-
-test
