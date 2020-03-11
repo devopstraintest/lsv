@@ -1,18 +1,17 @@
 #!/bin/bash
+cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/automationLSV/testOne
 
-
+changes=$(git diff --staged --quiet)
+changes=$?
 git add .
-git diff diff-index --quiet
-changes=$?
-
 echo $changes
-git commit -m "ls $(date + '%Y-%m-%d') update "
-git log @{u}.. --quiet
-changes=$?
-echo "*****"
-echo $changes
+git commit -m "date $(date + '%Y-%m-%d') update "
+#git log @{u}.. --quiet
+#changes=$?
+#echo "*****"
+#echo $changes
 #SHAholder=$(git cherry -v)
-git push
+#git push
 #
 #if [ -z "$SHAholder" ]
 #then
@@ -25,3 +24,6 @@ git push
 #fi
 #
 #
+
+"testing test"
+"another test"
