@@ -3,8 +3,9 @@ cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/auto
 
 changes=$(git diff  --quiet)
 changes=$?
-git add .
 echo $changes
+git add .
+
 git commit -m "date $(date + '%Y-%m-%d') update "
 #git log @{u}.. --quiet
 #changes=$?
