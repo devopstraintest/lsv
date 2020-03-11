@@ -1,6 +1,6 @@
 #!/bin/bash
 cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/automationLSV/testOne
-
+echo "proba"
 changes=$(git diff  --quiet)
 changes=$?
 echo $changes

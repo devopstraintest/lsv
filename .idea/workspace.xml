@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -33,10 +36,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583914240489">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583914312750">
       <screen x="67" y="27" width="1853" height="923" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1583914240489" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1583914312750" />
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583914237090">
       <screen x="67" y="27" width="1853" height="923" />
     </state>
