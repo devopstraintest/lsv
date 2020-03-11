@@ -1,7 +1,7 @@
 #!/bin/bash
 cp /home/antonio/Desktop/automationLSV/tst.properties /home/antonio/Desktop/automationLSV/testOne
 
-changes=$(git diff --staged --quiet)
+changes=$(git diff  --quiet)
 changes=$?
 git add .
 echo $changes
