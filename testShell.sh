@@ -1,8 +1,27 @@
 #!/bin/bash
 
+changes=$(git diff --quiet)
+
+"testing test"
+"another test"
+"another test"
+
+"another test"
+changes=$?
 git add .
-git commit -m "ls $(date + '%Y-%m-%d') update "
-SHAholder=$(git cherry -v)
+echo $changes
+git commit -m "date $(date + '%Y-%m-%d') update "
+
+"testing test"
+"another test"
+"another test"
+
+"another test"
+#git log @{u}.. --quiet
+#changes=$?
+#echo "*****"
+#echo $changes
+#SHAholder=$(git cherry -v)
 git push
 "testing test"
 #
