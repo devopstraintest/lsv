@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfe76f66-44f9-460f-9f58-886e63599a63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0a8c1fa3-b9ee-472d-9fa8-8412a7d132e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/testShell.sh" beforeDir="false" afterPath="$PROJECT_DIR$/testShell.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1ZB3KjSrTKsFXncb2zM8oaHXkJ0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automationLSV/testShell.sh" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="testShell" type="ShConfigurationType">
@@ -44,5 +45,17 @@
       <screen x="67" y="27" width="1853" height="923" />
     </state>
     <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1583914237090" />
+    <state x="242" y="103" width="1482" height="768" key="MergeDialog" timestamp="1584298143260">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state x="242" y="103" width="1482" height="768" key="MergeDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584298143260" />
+    <state x="698" y="205" width="580" height="564" key="MultipleFileMergeDialog" timestamp="1584298143264">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state x="698" y="205" width="580" height="564" key="MultipleFileMergeDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584298143264" />
+    <state x="649" y="315" key="com.intellij.ide.util.TipDialog" timestamp="1584298714965">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state x="649" y="315" key="com.intellij.ide.util.TipDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584298714965" />
   </component>
 </project>
