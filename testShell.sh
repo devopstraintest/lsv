@@ -8,6 +8,12 @@ changes=$(git diff --quiet)
 
 "another test"
 changes=$?
+
+"testing test"
+"another test"
+"another test"
+
+"another test"
 git add .
 echo $changes
 git commit -m "date $(date + '%Y-%m-%d') update "
