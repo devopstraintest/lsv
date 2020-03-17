@@ -1,9 +1,7 @@
 #!/bin/bash
 
-
-
-"testing test"
-"testing test"
+echo "testing test"
+echo "testing test"
 git add .
 
 git commit -m "date $(date + '%Y-%m-%d') update "
