@@ -1,6 +1,6 @@
 #!/bin/bash
 
-changes=$(git diff --quiet)
+
 
 "testing test"
 "testing test"
@@ -8,7 +8,13 @@ git add .
 
 git commit -m "date $(date + '%Y-%m-%d') update "
 
-if git push
+git push
+pushed=$?
+
+echo $pushed
+
+
+if [ ${pushed} -eq 0 ]
 then
   echo "xxxxxxxxxxxxxxxxxx"
 else
