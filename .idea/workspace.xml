@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e16ad0b7-f4b3-4d21-ae59-ba98ac04a10f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newScript.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/newScript.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testShell.sh" beforeDir="false" afterPath="$PROJECT_DIR$/testShell.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tst.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst1.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst_one.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tst_one.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,17 +24,32 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/newScript.groovy" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Groovy.newScript">
+    <configuration name="newScript" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="automationLSV" />
+      <setting name="path" value="file://$PROJECT_DIR$/newScript.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testShell" type="ShConfigurationType">
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/../automationLSV/testShell.sh" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/testShell.sh" />
       <option name="SCRIPT_OPTIONS" value="" />
       <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Groovy.newScript" />
+      <item itemvalue="Shell Script.testShell" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,22 +58,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583914312750">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584701564103">
       <screen x="67" y="27" width="1853" height="923" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1583914312750" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583914237090">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584701564103" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584701558605">
       <screen x="67" y="27" width="1853" height="923" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1583914237090" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584701558605" />
+    <state width="1807" height="239" key="GridCell.Tab.0.bottom" timestamp="1584703444104">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state width="1807" height="239" key="GridCell.Tab.0.bottom/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584703444104" />
+    <state width="1807" height="239" key="GridCell.Tab.0.center" timestamp="1584703444104">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state width="1807" height="239" key="GridCell.Tab.0.center/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584703444104" />
+    <state width="1807" height="239" key="GridCell.Tab.0.left" timestamp="1584703444103">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state width="1807" height="239" key="GridCell.Tab.0.left/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584703444103" />
+    <state width="1807" height="239" key="GridCell.Tab.0.right" timestamp="1584703444104">
+      <screen x="67" y="27" width="1853" height="923" />
+    </state>
+    <state width="1807" height="239" key="GridCell.Tab.0.right/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584703444104" />
     <state x="242" y="103" width="1482" height="768" key="MergeDialog" timestamp="1584298143260">
       <screen x="67" y="27" width="1853" height="923" />
     </state>
     <state x="242" y="103" width="1482" height="768" key="MergeDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584298143260" />
-    <state x="698" y="205" width="580" height="564" key="MultipleFileMergeDialog" timestamp="1584298143264">
+    <state x="698" y="205" width="580" height="564" key="MultipleFileMergeDialog" timestamp="1584468260949">
       <screen x="67" y="27" width="1853" height="923" />
     </state>
-    <state x="698" y="205" width="580" height="564" key="MultipleFileMergeDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584298143264" />
+    <state x="698" y="205" width="580" height="564" key="MultipleFileMergeDialog/67.27.1853.923/1920.0.1920.950@67.27.1853.923" timestamp="1584468260949" />
     <state x="649" y="315" key="com.intellij.ide.util.TipDialog" timestamp="1584298714965">
       <screen x="67" y="27" width="1853" height="923" />
     </state>

@@ -76,15 +76,15 @@ class testingEnum{
     }
 }
 
-def test = []
-def test1 = []
-testingEnum.PackageNameLSV_18_1.values().each {it->
-    test.add("'" + it + "'");
-    test1.add("${it}".toUpperCase().replaceAll("-","_"));
-}
-
-println(test)
-println(test1[0].getClass())
+//def test = []
+//def test1 = []
+//testingEnum.PackageNameLSV_18_1.values().each {it->
+//    test.add("'" + it + "'");
+//    test1.add("${it}".toUpperCase().replaceAll("-","_"));
+//}
+//
+//println(test)
+//println(test1[0].getClass())
 
 //def testing = testingEnum.PackageNameLSV_18_1.values().toString()
 //def tes = "${testingEnum.PackageNameLSV_18_1.values()}"
@@ -136,27 +136,29 @@ println(test1[0].getClass())
 ////testingEnum.PackageNameLSV_18_1.values().each { cx -> listOfDownsteamPackages.add("${cx}".toUpperCase().replaceAll("-", "_").toString()) }
 ////println(listOfDownsteamPackages)
 //
-//def listOfDownstreamPackages = []
-//def listOfPackages = []
-//def listOfPackagesTest = []
-//testingEnum.PackageNameLSV_18_1.values().each { cx ->
-//    listOfPackages.add("'" + "${cx}" + "'");
-//    if(cx.toString() == 'system-platform' || cx.toString() =='ea-applications') listOfPackagesTest.add("'" + "${cx}"+ ".version" + "'" );
-//    listOfDownstreamPackages.add( "${ cx }".toUpperCase().toString().replaceAll("-", "_")) }
-////
-////listOfPackages.each {it->println(it.toUpperCase())}
+def listOfDownstreamPackages = []
+def listOfPackages = []
+def listOfPackagesTest = []
+testingEnum.PackageNameLSV_18_1.values().each { cx ->
+    listOfPackages.add("'" + "${cx}" + "'");
+    if(cx.toString() == 'system-platform' || cx.toString() =='ea-applications') listOfPackagesTest.add("'" + "${cx}"+ ".version" + "'" );
+    listOfDownstreamPackages.add( "${ cx }".toUpperCase().toString().replaceAll("-", "_")) }
 //
-////
-//Properties props = new Properties()
-//File propsFile = new File("tst.properties")
-//Properties props1 = new Properties()
-//File propsFile1 = new File("tst_one.properties")
-////listOfPackages.each{ it -> props.setProperty(it.toUpperCase(),"10")}
-////listOfPackagesTest.each{ it -> props1.setProperty(it.minus('.version')+ "_PREVIOUS","10")}
-////props.store(propsFile.newWriter(), null)
-////
-////props1.store(propsFile1.newWriter(), null)
-//println(props)
+//listOfPackages.each {it->println(it.toUpperCase())}
+
+
+
+
+Properties props = new Properties()
+File propsFile = new File("tst.properties")
+Properties props1 = new Properties()
+File propsFile1 = new File("tst_one.properties")
+listOfPackages.each{ it -> props.setProperty(it.toUpperCase(),"10")}
+listOfPackagesTest.each{ it -> props1.setProperty(it.minus('.version')+ "_PREVIOUS","10")}
+props.store(propsFile.newWriter(), null)
+//
+props1.store(propsFile1.newWriter(), null)
+println(props)
 
 //
 //Properties props = new Properties()
@@ -170,3 +172,6 @@ println(test1[0].getClass())
 //props1.putAll(props)
 //
 //println(props1)
+
+def file = new File('tst2.properties')
+file.delete()
