@@ -6,7 +6,9 @@ git add .
 
 git commit -m "date $(date + '%Y-%m-%d') update "
 
-git push
+command=$(git push | grep remote)
+
+echo $command
 #
 #
 #echo $pushed
@@ -18,5 +20,4 @@ git push
 #else
 #  echo "no"
 #fi
-
-echo > tst2.properties
+ 
